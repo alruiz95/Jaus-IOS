@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  mainNavigationController.swift
 //  ProyectoJaus
 //
-//  Created by Estudiante on 4/10/16.
+//  Created by Alberto on 11/10/16.
 //  Copyright © 2016 Tecnologico de Costa Rica. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class mainNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }

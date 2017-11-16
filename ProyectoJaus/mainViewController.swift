@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  mainViewController.swift
 //  ProyectoJaus
 //
-//  Created by Estudiante on 4/10/16.
+//  Created by Estudiante on 10/11/16.
 //  Copyright © 2016 Tecnologico de Costa Rica. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class mainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +21,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
     /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
